@@ -1,3 +1,12 @@
+//* este es el link de mi repositorio y mis commits https://github.com/joseguifa/Tarea3_201602646.git *//
+
+
+
+
+
+
+
+
 
 package tarea3;
 
@@ -23,7 +32,7 @@ public class Tarea3 {
            
        // en esta parate estoy declarando que la variable opciones sera lo que es scann va a leer y se guarde en esta variable //
        opciones = entrada.nextInt();
-       // luego realizo mi seleccion de opciones utilizando un switch y pueda entrar en el caso asignado para cada situacion //
+       // luego realizo mi seleccion de opciones principales utilizando un switch y pueda entrar en el caso asignado para cada situacion //
        switch (opciones){
        
            case 1:
@@ -35,6 +44,14 @@ public class Tarea3 {
                int opciones_caso1 = 0;
                Scanner ingreso= new Scanner (System.in);
                opciones_caso1 = ingreso.nextInt();
+               
+              
+               
+               
+               
+               
+               
+               
                
                switch (opciones_caso1){
                    // en este caso vamos a realizar lo que se nos pide en la tarea ingresar un vector y revisar que sea diferente //
@@ -55,7 +72,9 @@ public class Tarea3 {
                          
                          // en esta variable se van a guardar los datos que ingresemos //
                          vector5[z]= lector.nextInt();
+                         
                         
+                                
                          //aqui vamos a realizar un for anidado para poder realizar la comparacion si el usuario ya existe //
                         for ( i=0;i<=4 ;i++){
                             if (vector5[i].equals(vector5[1]))
@@ -63,21 +82,14 @@ public class Tarea3 {
                              System.out.println("el usuario ya esta registrado pruebe con otro");
                             
                              else
-                             System.out.println("nueva instruccion" );
-                         
-                        }
-                         
-                        
+                             System.out.println("regresar al menu de esta seccion " );
                          
                          }
-                        
                          
-               }  
-                       }
-                         
-                 
-                      
+                         }
+                         }  
                        break ;
+       
                        
                        
                        
@@ -119,7 +131,12 @@ public class Tarea3 {
                break;
                
                case 4:
-               System.out.println(" PROGRAMA QUE ES OBLIGATORIO  ");
+                
+               
+               
+               
+               
+               
                break;
                
                case 5:
